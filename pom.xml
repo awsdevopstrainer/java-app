@@ -48,15 +48,15 @@
 	<build>
 		<finalName>api</finalName>
 		<plugins>
-			<!-- <plugin>
+			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.7</version>
+				<version>3.8.1</version>
 				<configuration>
 					<source>${java-version}</source>
 					<target>${java-version}</target>
 					<encoding>${project.build.sourceEncoding}</encoding>
 				</configuration>
-			</plugin> -->
+			</plugin>
 
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
